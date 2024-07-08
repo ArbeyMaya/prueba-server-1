@@ -1,0 +1,11 @@
+{
+  "name": "server-prueba-1",
+  "version": "1.0.0",
+  "description": "API web personal",
+  "main": "index.js",
+  "author": "@Arbey-Maya",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "6.6.1"
+  }
+}
