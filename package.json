@@ -1,11 +1,19 @@
 {
   "name": "server-prueba-1",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "API web personal",
   "main": "index.js",
   "author": "@Arbey-Maya",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
-    "mongoose": "6.6.1"
+    "body-parser": "1.20.0",
+    "cors": "2.8.5",
+    "express": "4.18.1",
+    "mongoose": "6.6.1",
+    "nodemon": "2.0.20"
   }
 }
